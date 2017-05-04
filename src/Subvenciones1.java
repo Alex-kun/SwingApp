@@ -57,7 +57,7 @@ public class Subvenciones1 extends JFrame {
 	 */
 	public Subvenciones1() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 743, 540);
+		setBounds(100, 100, 743, 524);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -88,7 +88,7 @@ public class Subvenciones1 extends JFrame {
 		
 		JPanel panel = new JPanel();
 		panel.setLayout(null);
-		panel.setBackground(new Color(100, 149, 237));
+		panel.setBackground(new Color(0, 89, 179));
 		panel.setBounds(0, 0, 122, 502);
 		contentPane.add(panel);
 		
@@ -99,7 +99,7 @@ public class Subvenciones1 extends JFrame {
 				dispose();
 			}
 		});
-		button.setForeground(Color.WHITE);
+		button.setForeground(Color.BLACK);
 		button.setFont(new Font("Tahoma", Font.BOLD, 11));
 		button.setBackground(new Color(112, 128, 144));
 		button.setBounds(0, 77, 122, 23);
@@ -112,7 +112,7 @@ public class Subvenciones1 extends JFrame {
 				dispose();
 			}
 		});
-		button_1.setForeground(Color.WHITE);
+		button_1.setForeground(Color.BLACK);
 		button_1.setFont(new Font("Tahoma", Font.BOLD, 11));
 		button_1.setBackground(new Color(119, 136, 153));
 		button_1.setBounds(0, 145, 122, 23);
@@ -125,7 +125,7 @@ public class Subvenciones1 extends JFrame {
 				dispose();
 			}
 		});
-		button_2.setForeground(Color.WHITE);
+		button_2.setForeground(Color.BLACK);
 		button_2.setFont(new Font("Tahoma", Font.BOLD, 11));
 		button_2.setBackground(new Color(119, 136, 153));
 		button_2.setBounds(0, 179, 122, 23);
@@ -138,7 +138,7 @@ public class Subvenciones1 extends JFrame {
 				dispose();
 			}
 		});
-		button_3.setForeground(Color.WHITE);
+		button_3.setForeground(Color.BLACK);
 		button_3.setFont(new Font("Tahoma", Font.BOLD, 11));
 		button_3.setBackground(new Color(119, 136, 153));
 		button_3.setBounds(0, 111, 122, 23);
@@ -157,7 +157,7 @@ public class Subvenciones1 extends JFrame {
 				dispose();
 			}
 		});
-		button_4.setForeground(Color.WHITE);
+		button_4.setForeground(Color.BLACK);
 		button_4.setFont(new Font("Tahoma", Font.BOLD, 11));
 		button_4.setBackground(new Color(119, 136, 153));
 		button_4.setBounds(466, 11, 107, 23);

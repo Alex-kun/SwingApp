@@ -67,7 +67,7 @@ public class MenuInicio extends JFrame {
 	 */
 	public MenuInicio() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 743, 540);
+		setBounds(100, 100, 743, 524);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -130,7 +130,7 @@ public class MenuInicio extends JFrame {
 				dispose();
 			}
 		});
-		button_1.setForeground(Color.WHITE);
+		button_1.setForeground(Color.BLACK);
 		button_1.setFont(new Font("Tahoma", Font.BOLD, 11));
 		button_1.setBackground(new Color(119, 136, 153));
 		GroupLayout gl_panel_1 = new GroupLayout(panel_1);
@@ -153,7 +153,7 @@ public class MenuInicio extends JFrame {
 		
 		JPanel panel_2 = new JPanel();
 		panel_2.setLayout(null);
-		panel_2.setBackground(new Color(100, 149, 237));
+		panel_2.setBackground(new Color(0, 89, 179));
 		panel_2.setBounds(0, 0, 122, 502);
 		contentPane.add(panel_2);
 		
@@ -164,9 +164,9 @@ public class MenuInicio extends JFrame {
 				dispose();
 			}
 		});
-		button_2.setForeground(Color.WHITE);
+		button_2.setForeground(Color.BLACK);
 		button_2.setFont(new Font("Tahoma", Font.BOLD, 11));
-		button_2.setBackground(new Color(112, 128, 144));
+		button_2.setBackground(Color.BLACK);
 		button_2.setBounds(0, 77, 122, 23);
 		panel_2.add(button_2);
 		
@@ -177,7 +177,7 @@ public class MenuInicio extends JFrame {
 				dispose();
 			}
 		});
-		button_3.setForeground(Color.WHITE);
+		button_3.setForeground(Color.BLACK);
 		button_3.setFont(new Font("Tahoma", Font.BOLD, 11));
 		button_3.setBackground(new Color(119, 136, 153));
 		button_3.setBounds(0, 145, 122, 23);
@@ -190,7 +190,7 @@ public class MenuInicio extends JFrame {
 				dispose();
 			}
 		});
-		button_4.setForeground(Color.WHITE);
+		button_4.setForeground(Color.BLACK);
 		button_4.setFont(new Font("Tahoma", Font.BOLD, 11));
 		button_4.setBackground(new Color(119, 136, 153));
 		button_4.setBounds(0, 179, 122, 23);
@@ -203,7 +203,7 @@ public class MenuInicio extends JFrame {
 				dispose();
 			}
 		});
-		button_5.setForeground(Color.WHITE);
+		button_5.setForeground(Color.BLACK);
 		button_5.setFont(new Font("Tahoma", Font.BOLD, 11));
 		button_5.setBackground(new Color(119, 136, 153));
 		button_5.setBounds(0, 111, 122, 23);

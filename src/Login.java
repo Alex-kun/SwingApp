@@ -14,6 +14,9 @@ import javax.swing.JButton;
 import javax.swing.JSeparator;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.border.CompoundBorder;
+import java.awt.Font;
+import javax.swing.border.EtchedBorder;
 
 public class Login extends JFrame {
 
@@ -50,22 +53,32 @@ public class Login extends JFrame {
 		contentPane.setLayout(null);
 		
 		textField = new JTextField();
-		textField.setBounds(153, 83, 105, 20);
+		textField.setForeground(Color.BLACK);
+		textField.setBorder(new EtchedBorder(EtchedBorder.LOWERED, new Color(0, 0, 0), Color.BLACK));
+		textField.setBackground(Color.WHITE);
+		textField.setBounds(247, 82, 130, 23);
 		contentPane.add(textField);
+		
 		textField.setColumns(10);
 		
 		passwordField = new JPasswordField();
-		passwordField.setBounds(153, 139, 105, 20);
+		passwordField.setForeground(Color.BLACK);
+		passwordField.setBorder(new EtchedBorder(EtchedBorder.LOWERED, Color.BLACK, new Color(0, 0, 0)));
+		passwordField.setBackground(Color.WHITE);
+		
+		passwordField.setBounds(247, 146, 130, 23);
 		contentPane.add(passwordField);
 		
 		JLabel lblUsuario = new JLabel("Usuario");
+		lblUsuario.setFont(new Font("Carter One", Font.PLAIN, 16));
 		lblUsuario.setForeground(new Color(255, 255, 255));
-		lblUsuario.setBounds(187, 61, 46, 14);
+		lblUsuario.setBounds(247, 44, 130, 28);
 		contentPane.add(lblUsuario);
 		
 		JLabel lblContrasea = new JLabel("Contrase\u00F1a");
+		lblContrasea.setFont(new Font("Carter One", Font.PLAIN, 16));
 		lblContrasea.setForeground(new Color(255, 255, 255));
-		lblContrasea.setBounds(176, 114, 71, 14);
+		lblContrasea.setBounds(247, 117, 130, 23);
 		contentPane.add(lblContrasea);
 		
 		JButton btnNewButton = new JButton("Entrar");
@@ -75,7 +88,12 @@ public class Login extends JFrame {
 				dispose();
 			}
 		});
-		btnNewButton.setBounds(153, 192, 105, 23);
+		btnNewButton.setBounds(247, 181, 105, 23);
 		contentPane.add(btnNewButton);
+		
+		JPanel panel = new JPanel();
+		panel.setBackground(new Color(0, 89, 179));
+		panel.setBounds(0, 0, 141, 278);
+		contentPane.add(panel);
 	}
 }
